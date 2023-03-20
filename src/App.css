@@ -1,0 +1,32 @@
+.gameTitle {
+  width: 300px;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: -15rem;
+  left: -5rem;
+}
+
+.textBottomSection {
+  position: absolute;
+  bottom: -15rem;
+  left: -5rem;
+  width: 300px;
+  text-align: center;
+}
+
+.winnerMove {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 22px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.restartButton {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}

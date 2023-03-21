@@ -2,69 +2,54 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# 3D-Tic-Tac-Toe-3JS-R3F-R3D
 
-In the project directory, you can run:
+A Tic-Tac-Toe Game made using ThreeJS, React-Three-Fiber and React-Three-Drei
 
-### `npm start`
+## To install dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Clone the repository
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+https://github.com/FullStackkDev/tic-tac-toe-3JS-R3F-R3D.git
 
-### `npm test`
+#### Version number
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### `npm : 9.5.0`
 
-### `npm run build`
+#### `node : 18.15.0`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### `react: 18.2.0`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### `@react-three/drei : 9.57.2`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### `@react-three/fiber : 8.12.0`
 
-### `npm run eject`
+#### npm
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`npm install`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+or
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### yarn
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+`yarn install`
 
-## Learn More
+In case of errors install the packages present in package.json file as
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### npm
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`npm install --legacy-peer-deps [package name]`
 
-### Code Splitting
+#### yarn
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`yarn install --legacy-peer-deps [package name]`
 
-### Analyzing the Bundle Size
+# Project Description
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This is a A Tic-Tac-Toe Game that allows users to interact with the 3D models of cube and sphere and play an interactive game.
 
-### Making a Progressive Web App
+The 3D model is converted using gltfx pipeline
+The 3D model is compressed using Draco compression
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For more projects like this, please get in touch at
+(fullstackkdev@gmail.com)
